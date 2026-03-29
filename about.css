@@ -1,0 +1,53 @@
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#89f7fe,#66a6ff);
+margin:0;
+padding:0;
+}
+
+/* About Section */
+
+.about-section{
+padding:60px 20px;
+text-align:center;
+}
+
+.about-title{
+font-size:40px;
+color:white;
+margin-bottom:40px;
+}
+
+/* Cards Layout */
+
+.about-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+/* Card Design */
+
+.about-card{
+width:300px;
+padding:25px;
+background:rgba(255,255,255,0.2);
+backdrop-filter:blur(10px);
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+color:white;
+transition:0.4s;
+}
+
+/* Hover Effect */
+
+.about-card:hover{
+transform:translateY(-10px) scale(1.05);
+background:white;
+color:#333;
+}
+
+.about-card h2{
+margin-bottom:15px;
+}

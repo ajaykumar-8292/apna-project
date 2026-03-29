@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(246, 248, 106);
+}
+#skills{
+padding:50px;
+text-align:center;
+}
+
+.skill-title{
+font-size:40px;
+color:#0026ff;
+margin-bottom:30px;
+}
+
+.skill-box{
+width:80%;
+margin:15px auto;
+text-align:left;
+}
+
+.skill-bar{
+width:100%;
+background:#ddd;
+border-radius:20px;
+overflow:hidden;
+}
+
+.skill{
+height:20px;
+width:0;
+background:linear-gradient(90deg,#00c6ff,#0072ff);
+border-radius:20px;
+}
+
+/* Skill levels */
+
+.html{ width:90%; }
+.css{ width:85%; }
+.js{ width:75%; }
+.design{ width:80%; }

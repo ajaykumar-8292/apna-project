@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+<section id="contact">
+
+<h1 class="contact-title">Contact Me</h1>
+
+<form id="contactForm">
+
+<label>Name</label>
+<input type="text" placeholder="Enter Your Name" required>
+
+<label>Email</label>
+<input type="email" placeholder="Enter Your Email" required>
+
+<label>Phone</label>
+<input type="text" placeholder="Enter Your Phone Number">
+
+<label>Message</label>
+<textarea placeholder="Write Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+<section id="contact">
+
+<h1>Contact Me</h1>
+
+<div class="social-icons">
+
+<a href="https://www.facebook.com/share/171bSRZP5L/" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/124/124010.png">
+</a>
+
+<a href="https://www.instagram.com/_i.t.z__ajay___09x?igsh=bjZ0NnZmamZrYTlx" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+</a>
+
+<a href="https://wa.me/8292733112" target="_blank">
+<img src="https://cdn-icons-png.flaticon.com/512/124/124034.png">
+</a>
+
+</div>
+
+</section>
+</section>
+<script>
+    document.getElementById("contactForm").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("Message Sent Successfully!");
+
+});
+</script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skill</title>
+    <link rel="stylesheet" href="skill.css">
+</head>
+<body>
+    <section id="skills">
+
+<h1 class="skill-title">My Skills</h1>
+
+<div class="skill-box">
+<p>HTML</p>
+<div class="skill-bar">
+<div class="skill html"></div>
+</div>
+</div>
+
+<div class="skill-box">
+<p>CSS</p>
+<div class="skill-bar">
+<div class="skill css"></div>
+</div>
+</div>
+
+<div class="skill-box">
+<p>JavaScript</p>
+<div class="skill-bar">
+<div class="skill js"></div>
+</div>
+</div>
+
+<div class="skill-box">
+<p>Web Design</p>
+<div class="skill-bar">
+<div class="skill design"></div>
+</div>
+</div>
+
+</section>
+<script>
+    window.addEventListener("scroll", function(){
+
+let skills = document.querySelectorAll(".skill");
+
+skills.forEach(function(skill){
+
+skill.style.transition = "2s";
+skill.style.width = skill.classList.contains("html") ? "90%" :
+                    skill.classList.contains("css") ? "85%" :
+                    skill.classList.contains("js") ? "75%" :
+                    skill.classList.contains("design") ? "80%" : "0%";
+
+});
+
+});
+</script>
+</body>
+</html>
