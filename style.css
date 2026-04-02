@@ -247,4 +247,51 @@ align-items: center;
     background-color: #88ff00;
    
 }
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+  body{
+    padding:0;
+    margin:0;
+  }
+
+  nav{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a{
+    display:block;
+    padding:10px;
+  }
+
+  .hero{
+    padding:20px;
+    text-align:center;
+  }
+
+  .hero h1{
+    font-size:24px;
+  }
+
+  .hero p{
+    font-size:14px;
+  }
+
+  .form-container{
+    width:90%;
+    margin:auto;
+  }
+
+  input{
+    width:100%;
+    margin-bottom:10px;
+  }
+
+  button{
+    width:100%;
+  }
+
+}
+
 
